@@ -1,35 +1,22 @@
-import Pens.Eraser;
-import Pens.Highlighter;
-import Pens.Pen;
-import Pens.Pencil;
+import Pens.*;
 import Shapes.*;
 
 public class Main {
-
     public static void main(String[] args)
     {
-        Pen pen = new Pen();
-        //shapes
-        Circle circle = new Circle();
-        Oval oval = new Oval();
-        Phombus phombus = new Phombus();
-        Quad quad = new Quad();
-        Triangle triangle = new Triangle();
-
-        //pens
-        Eraser eraser = new Eraser();
-        Highlighter highlighter = new Highlighter();
-        Pencil pencil = new Pencil();
-
         //printers
         ShapePrinter shapePrinter = new ShapePrinter();
         PenPrinter penPrinter = new PenPrinter();
 
         //print name of shape
-        shapePrinter.printNameOfShape(phombus);
-
+        shapePrinter.printShape(new Triangle());
+        shapePrinter.printShape(new Circle());
+        shapePrinter.printShape(new Oval());
+        shapePrinter.printShape(new Quad());
+        shapePrinter.printShape(new Phombus());
         //print name of pen
-        penPrinter.printNameOfPen(highlighter);
-
+        penPrinter.printPen(new Highlighter());
+        penPrinter.printPen(new Eraser());
+        penPrinter.printPen(new Pencil());
     }
 }

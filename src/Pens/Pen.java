@@ -21,8 +21,4 @@ public class Pen implements Drawable {
         return 0;
     }
 
-    @Override
-    public Color getColor() {
-        return Color.red;
-    }
 }

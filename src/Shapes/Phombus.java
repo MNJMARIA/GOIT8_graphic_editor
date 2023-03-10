@@ -19,9 +19,4 @@ public class Phombus extends Shape implements Borderable {
     public double getBorderHeight() {
         return 0;
     }
-
-    @Override
-    public Color getBorderColor() {
-        return null;
-    }
 }

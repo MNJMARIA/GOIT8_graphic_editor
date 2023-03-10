@@ -20,8 +20,4 @@ public class Triangle extends Shape implements Borderable {
         return 0;
     }
 
-    @Override
-    public Color getBorderColor() {
-        return null;
-    }
 }

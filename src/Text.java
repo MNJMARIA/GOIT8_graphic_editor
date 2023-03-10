@@ -13,10 +13,6 @@ public class Text implements ScalableDrawer {
         return 0;
     }
 
-    @Override
-    public Color getColor() {
-        return null;
-    }
 
     @Override
     public double getScale() {

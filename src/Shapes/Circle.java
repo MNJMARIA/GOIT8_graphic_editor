@@ -20,10 +20,6 @@ public class Circle extends Shape implements Borderable {
         return 0;
     }
 
-    @Override
-    public Color getBorderColor() {
-        return null;
-    }
 
 
 }
